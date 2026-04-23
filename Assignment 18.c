@@ -17,7 +17,7 @@ int main() {
     for (i = n - 1; i >= 0; i--) {
         rev[j++] = str1[i];
     }
-    rev[j] = '\0'; // Null-terminate the string
+    rev[j] = '\0'; 
     printf("Reversed str1: %s\n", rev);
 
     if (strcmp(str1, str2) == 0) {
